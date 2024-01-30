@@ -1,0 +1,12 @@
+@mixin bgColor($num: 1) {
+  @if $num == 1{
+    background-color: #fff;
+  } @else {
+    background-color: black;
+  }
+}
+
+.main {
+  @include bgColor(2)
+}
+
